@@ -85,6 +85,7 @@ public class Exercise extends AppCompatActivity {
                 startActivity(intentEditRunning);
             }
         });
+
         btnEditExercise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,6 +93,7 @@ public class Exercise extends AppCompatActivity {
                 startActivity(intentEditExercise);
             }
         });
+
         btnEditBiking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

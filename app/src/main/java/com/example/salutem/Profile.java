@@ -51,8 +51,8 @@ public class Profile extends AppCompatActivity {
         String prot = mPreferences.getString(getString(R.string.total_pro), "0");
         String carb = mPreferences.getString(getString(R.string.total_carbs), "0");
         String fats = mPreferences.getString(getString(R.string.total_fat), "0");
-        String min_medi = mPreferences.getString(getString(R.string.daily_minutes_meditated), "0");
-        String lat_mood = mPreferences.getString(getString(R.string.latest_mood_entry), "No Entry");
+        String min_medi = mPreferences.getString(getString(R.string.min_med), "0");
+        String lat_mood = mPreferences.getString(getString(R.string.moo_ent), "No Entry");
 
         timeExercise.setText(time_exe);
         calsBurned.setText(cals_bur);

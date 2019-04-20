@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Meditation"
+            android:label="@string/meditation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mood"
+            android:label="@string/mood"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Dinner"
             android:label="@string/dinner"
             android:theme="@style/AppTheme.NoActionBar" />

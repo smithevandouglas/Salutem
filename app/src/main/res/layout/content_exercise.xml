@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="370dp"
-        android:layout_height="130dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,21 +43,22 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="300sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/distance_run_in_miles"
                 android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/DistanceRunning"
                 android:layout_width="150sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/distance_ran_value"
@@ -67,22 +68,23 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:orientation="horizontal">
 
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="300sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/calories_burned"
                 android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/CaloriesRunning"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/running_calories_burned_value"
@@ -96,7 +98,7 @@
 
     <LinearLayout
         android:layout_width="370dp"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,20 +130,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView26"
                 android:layout_width="300sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/time_exercised_today_in_minutes" />
 
             <TextView
                 android:id="@+id/TimeExercise"
                 android:layout_width="150sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/time_exercised_today_value"
@@ -150,20 +153,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="300sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/calories_burned" />
 
             <TextView
                 android:id="@+id/CaloriesExercise"
                 android:layout_width="150sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/exercise_calories_burned_value"
@@ -174,7 +178,7 @@
 
     <LinearLayout
         android:layout_width="370dp"
-        android:layout_height="150dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -206,20 +210,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="300sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/distance_biked_in_miles" />
 
             <TextView
                 android:id="@+id/DistanceBiking"
                 android:layout_width="150sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/distance_biked_value"
@@ -228,20 +233,21 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="36dp"
+            android:layout_height="40dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView30"
                 android:layout_width="300sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:text="@string/calories_burned" />
 
             <TextView
                 android:id="@+id/CaloriesBiking"
                 android:layout_width="150sp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/biking_calories_burned_value"

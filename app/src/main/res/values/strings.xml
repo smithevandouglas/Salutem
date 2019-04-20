@@ -90,4 +90,13 @@
     <string name="total_pro">com.example.salutem.total_pro</string>
     <string name="total_carbs">com.example.salutem.total_carbs</string>
     <string name="total_fat">com.example.salutem.total_fat</string>
+    <string name="mood_tracker">Mood Tracker</string>
+    <string name="latest_journal_entry">Latest Journal Entry</string>
+    <string name="no_journal_entry">No journal entry yet! Start keeping your journal today!</string>
+    <string name="enter_journal_entry">Enter new journal entry...</string>
+    <string name="meditation">Meditation</string>
+    <string name="mood">Mood</string>
+    <string name="moo_ent">com.example.salutem.moo_ent</string>
+    <string name="jou_ent">com.example.salutem.jou_ent</string>
+    <string name="min_med">com.example.salutem.min_med</string>
 </resources>
